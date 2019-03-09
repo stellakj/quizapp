@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Question.create(description: 'Is Ruby an Object Oriented Language', answer: 'yes')
+Question.create(description: 'What is naming convention for file names?', answer: 'snakecase')
+Question.create(description: 'What is the REPL for Ruby language?', answer: 'irb')
+Question.create(description: 'Rail models are typically based on what design pattern? ', answer: 'ActiveRecord')
